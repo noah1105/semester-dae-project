@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6de209790d341a85864fbda4c0a681fadb9ecce4
 # Add another data type, a function 
 # List of foods, their cooking instructions, ingredients, and cooking time
 food_data = {
@@ -18,10 +22,13 @@ food_data = {
     }
 }
 
+<<<<<<< HEAD
 # Function to print a message about the food being delicious
 def print_deliciousness(food_item):
     print(f"The {food_item} is delicious!")
 
+=======
+>>>>>>> 6de209790d341a85864fbda4c0a681fadb9ecce4
 while True:
     # Prompt the user for their food choice
     user_choice = input("Choose a food item (chicken, pasta, pizza): ").lower()
@@ -33,7 +40,10 @@ while True:
         print("Cooking Time:", food_data[user_choice]["cooking_time"])
         print("Instructions:")
         print(food_data[user_choice]["instructions"])
+<<<<<<< HEAD
         print_deliciousness(user_choice)  # Call the function to print the deliciousness message
+=======
+>>>>>>> 6de209790d341a85864fbda4c0a681fadb9ecce4
     else:
         print("Sorry, I don't have instructions for that food.")
 
